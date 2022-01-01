@@ -1,3 +1,5 @@
+import models.Node;
+
 public class Freddy
 {
 	public Node configure(double[] distances,double[] restTimes)
