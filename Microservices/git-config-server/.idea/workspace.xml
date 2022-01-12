@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfea1d9-3dea-435f-91b8-82867f80b2a4" name="Changes" comment="" />
+    <list default="true" id="674d5039-6ee5-450f-a1b9-be170f1d6977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Config-server-consumer/src/main/java/com/samesh/configserverconsumer/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Config-server-consumer/src/main/java/com/samesh/configserverconsumer/model/StudentProfileConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Config-server-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-service/student-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-service/student-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-service/student-qa.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-service/student.yml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,28 +26,44 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="23NjIz17kLu3smjf2oseAtNfWVo" />
+  <component name="ProjectId" id="23HkWSjlFCn1EusCbRgKB4eL38P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.samesh.config.server.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0bfea1d9-3dea-435f-91b8-82867f80b2a4" name="Changes" comment="" />
-      <created>1641581364158</created>
+      <changelist id="674d5039-6ee5-450f-a1b9-be170f1d6977" name="Changes" comment="" />
+      <created>1641398431558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1641581364158</updated>
-      <workItem from="1641581365380" duration="850000" />
-      <workItem from="1641967321825" duration="62000" />
+      <updated>1641398431558</updated>
+      <workItem from="1641398433393" duration="1000000" />
+      <workItem from="1641579732873" duration="82000" />
+      <workItem from="1641579891726" duration="292000" />
+      <workItem from="1641580444763" duration="2677000" />
+      <workItem from="1641983708212" duration="646000" />
     </task>
     <servers />
   </component>
