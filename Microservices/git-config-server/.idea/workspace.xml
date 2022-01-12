@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674d5039-6ee5-450f-a1b9-be170f1d6977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Config-server-consumer/src/main/java/com/samesh/configserverconsumer/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Config-server-consumer/src/main/java/com/samesh/configserverconsumer/model/StudentProfileConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Config-server-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/student-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/student-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/student-qa.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/student.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="674d5039-6ee5-450f-a1b9-be170f1d6977" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +53,7 @@
       <workItem from="1641579732873" duration="82000" />
       <workItem from="1641579891726" duration="292000" />
       <workItem from="1641580444763" duration="2677000" />
-      <workItem from="1641983708212" duration="646000" />
+      <workItem from="1641983708212" duration="1264000" />
     </task>
     <servers />
   </component>
