@@ -3,6 +3,7 @@ package com.samesh.studentservice.controller;
 import com.samesh.student.commons.model.Student;
 import com.samesh.studentservice.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,11 +16,13 @@ public class StudentController {
     StudentService studentService;
 
     @RequestMapping(value = "/student",method = RequestMethod.POST)
+    @PreAuthorize("hasAuthority('create_profile')")
     public Student save(@RequestBody Student student) {
         return studentService.save(student);
     }
 
     @RequestMapping(value = "/student",method = RequestMethod.GET)
+    @PreAuthorize("hasRole('ROLE_admin')")
     public List<Student> getAllStudents() {
         return studentService.getAllStudents();
     }
