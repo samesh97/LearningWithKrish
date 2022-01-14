@@ -49,9 +49,9 @@ public class EnrollServiceImpl implements EnrollService{
     }
 
     private Student getStudent(int id){
-        return restTemplate.getForObject("http://localhost:9091/services/student/" + id,Student.class);
+        return restTemplate.getForObject("http://student-service/services/student/" + id,Student.class);
     }
     private Course getCourse(int id){
-        return restTemplate.getForObject("http://localhost:9092/services/course/" + id,Course.class);
+        return restTemplate.getForObject("http://course-service/services/course/" + id,Course.class);
     }
 }

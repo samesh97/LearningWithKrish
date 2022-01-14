@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "services/course/")
+@RequestMapping(value = "services/course")
 public class CourseController {
 
     @Autowired
@@ -19,7 +19,7 @@ public class CourseController {
         return courseService.getAll();
     }
 
-    @RequestMapping(value = "{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
     public Course getCourse(@PathVariable int id) {
         return courseService.getById(id);
     }

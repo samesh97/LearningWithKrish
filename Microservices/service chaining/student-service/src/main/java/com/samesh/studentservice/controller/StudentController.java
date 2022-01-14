@@ -8,7 +8,7 @@ import student.Student;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "services/student/")
+@RequestMapping(value = "services/student")
 public class StudentController {
 
     @Autowired
@@ -19,7 +19,7 @@ public class StudentController {
         return studentService.getStudents();
     }
 
-    @RequestMapping(value = "{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
     public Student getStudent(@PathVariable int id) {
         return studentService.getStudent(id);
     }

@@ -11,12 +11,14 @@
         <module name="student-service" />
         <module name="enroll-service" />
         <module name="commons" />
+        <module name="discovery-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="course-service" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
       <module name="enroll-service" options="-parameters" />
       <module name="student-service" options="-parameters" />
     </option>
