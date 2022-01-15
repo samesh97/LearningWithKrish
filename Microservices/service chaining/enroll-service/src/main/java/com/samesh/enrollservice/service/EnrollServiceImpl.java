@@ -1,5 +1,7 @@
 package com.samesh.enrollservice.service;
 
+import com.samesh.enrollservice.hystrix.CourseCommand;
+import com.samesh.enrollservice.hystrix.StudentCommand;
 import com.samesh.enrollservice.model.DetailedResponse;
 import com.samesh.enrollservice.model.Response;
 import com.samesh.enrollservice.model.SimpleResponse;
@@ -49,9 +51,11 @@ public class EnrollServiceImpl implements EnrollService{
     }
 
     private Student getStudent(int id){
-        return restTemplate.getForObject("http://student-service/services/student/" + id,Student.class);
+        StudentCommand studentCommand = new StudentCommand(restTemplate,id);
+        return studentCommand.execute();
     }
     private Course getCourse(int id){
-        return restTemplate.getForObject("http://course-service/services/course/" + id,Course.class);
+        CourseCommand courseCommand = new CourseCommand(restTemplate,id);
+        return courseCommand.execute();
     }
 }
